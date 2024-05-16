@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/sagar/Downloads/Machine%20learning/Gemstone-Price-Prediction/mlruns/0/2e3da9c51b5745c5b728350c291ba625/artifacts
+end_time: 1715833787187
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2e3da9c51b5745c5b728350c291ba625
+run_name: amazing-bug-231
+run_uuid: 2e3da9c51b5745c5b728350c291ba625
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715833783928
+status: 3
+tags: []
+user_id: sagar
