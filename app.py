@@ -1,12 +1,13 @@
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, session
 
 from src.pipeline.prediction_pipeline import PredictPipeline, CustomData
 
 app = Flask(__name__)
+app.secret_key = 'your_secret_key'
 
 @app.route('/')
 def home_page():
-    return render_template("prediction.html")
+    return render_template("prediction.html", final_result=session.get('final_result'))
 
 @app.route("/predict", methods=["POST"])
 def predict_datapoint():
@@ -26,6 +27,8 @@ def predict_datapoint():
     predict_pipeline = PredictPipeline()
     pred = predict_pipeline.predict(final_data)
     result = round(pred[0], 2)
+
+    session['final_result'] = result
 
     return render_template("prediction.html", final_result=result)
 
