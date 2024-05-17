@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/sagar/Downloads/Machine%20learning/Gemstone-Price-Prediction/mlruns/0/7cedcd9dfc7a461184ab9a9b7245efa2/artifacts
+end_time: 1715863333453
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7cedcd9dfc7a461184ab9a9b7245efa2
+run_name: learned-moose-538
+run_uuid: 7cedcd9dfc7a461184ab9a9b7245efa2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715863331430
+status: 3
+tags: []
+user_id: sagar

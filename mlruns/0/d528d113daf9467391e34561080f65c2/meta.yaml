@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/sagar/Downloads/Machine%20learning/Gemstone-Price-Prediction/mlruns/0/d528d113daf9467391e34561080f65c2/artifacts
+end_time: 1715864431713
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d528d113daf9467391e34561080f65c2
+run_name: efficient-cub-154
+run_uuid: d528d113daf9467391e34561080f65c2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715864428874
+status: 3
+tags: []
+user_id: sagar
